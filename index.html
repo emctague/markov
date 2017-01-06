@@ -1,0 +1,38 @@
+<style>
+* { box-sizing: border-box; }
+body {
+  font-family: sans-serif;
+  color: #222;
+  margin: 1em;
+}
+table {
+  margin: 0 auto;
+}
+textarea {
+  width: 50em;
+  height: 40em;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+</style>
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td><textarea id="input"></textarea></td>
+    <td><textarea id="output" readonly></textarea></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="center">
+      <input type="number" id="num" value="30" min="1">
+      <button id="run">Generate New Text</button>
+    </td>
+  </tr>
+</table>
+<br/>
+
+<script src="markov.js"></script>

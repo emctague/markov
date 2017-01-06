@@ -10,9 +10,11 @@ refresh the page and correct your input.
 
 Files:
 
-  markov.js   -  A generic Markov Chain library.
-  ui.js       -  Manages the utility and processing of the input + output.
-  index.html  -  The utility's HTML source code.
-  style.css   -  The styling for the utility.
+  markov.js     -  A generic Markov Chain library.
+  ui.js         -  Manages the utility and processing of the input + output.
+  index.html    -  The utility's HTML source code.
+  style.css     -  The styling for the utility.
+  README        -  This file, the project description.
+  CONTRIBUTING  -  A guide to contributing to this project.
 
 See CONTRIBUTING for a guide to contributing to this project.

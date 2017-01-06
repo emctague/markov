@@ -14,3 +14,4 @@
   markov.js   -  A generic Markov Chain library.
   ui.js       -  Manages the utility and processing of the input + output.
   index.html  -  The utility's HTML source code.
+  style.css   -  The styling for the utility.

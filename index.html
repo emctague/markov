@@ -1,38 +1,26 @@
-<style>
-* { box-sizing: border-box; }
-body {
-  font-family: sans-serif;
-  color: #222;
-  margin: 1em;
-}
-table {
-  margin: 0 auto;
-}
-textarea {
-  width: 50em;
-  height: 40em;
-}
-.center {
-  display: flex;
-  justify-content: center;
-}
-</style>
-<table>
-  <tr>
-    <th>Input</th>
-    <th>Output</th>
-  </tr>
-  <tr>
-    <td><textarea id="input"></textarea></td>
-    <td><textarea id="output" readonly></textarea></td>
-  </tr>
-  <tr>
-    <td colspan="2" class="center">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Markov Chain Handler</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="split">
+      <div class="col">
+        <div class="title">Input</div>
+        <textarea id="input"></textarea>
+      </div>
+      <div class="col">
+        <div class="title">Output</div>
+        <textarea id="output" readonly></textarea>
+      </div>
+    </div>
+    <div class="center">
       <input type="number" id="num" value="30" min="1">
       <button id="run">Generate New Text</button>
-    </td>
-  </tr>
-</table>
-<br/>
-<script src="markov.js"></script>
-<script src="ui.js"></script>
+    </div>
+    <script src="markov.js"></script>
+    <script src="ui.js"></script>
+  </body>
+</html>

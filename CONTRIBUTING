@@ -1,0 +1,25 @@
+Contributing to This Project
+
+Contributing to this repository is very simple. You can work in one of two
+ways:
+
+ 1. Work in a fork, and then create a pull request.
+
+    For this method, you can either submit your pull request via GitHub,
+    or send a pull request via email (ideally generated with the command
+    `git request-pull`.)
+
+ 2. Clone locally and submit a patch.
+
+    For this method, you must make your changes in a patch or series of
+    patches, and then email them to a contributor to be merged into the
+    repository. Try to use git's utility for generating and emailing
+    patches.
+
+Emails regarding the project are to be sent to:
+  ethan@tague.me
+
+Please keep to the established source code style of the project, and write
+full-length, descriptive commit messages for every commit. Any changes which
+do not meet these requirements will be declined.
+

@@ -1,17 +1,18 @@
+Markov Chain Processor
 
- Markov Chain Processor
+This is a simple JavaScript web utility.
+It takes in a string of plain text (or space-separated items) and generates
+a new, randomized string based on the given input.
 
- This is a simple JavaScript web utility.
- It takes in a string of plain text (or space-separated items) and generates
- a new, randomized string based on the given input.
+If the markov chain is unable to generate a string of the required length
+using the given input, it will become stuck in an infinite loop - simply
+refresh the page and correct your input.
 
- If the markov chain is unable to generate a string of the required length
- using the given input, it will become stuck in an infinite loop - simply
- refresh the page and correct your input.
-
- Files:
+Files:
 
   markov.js   -  A generic Markov Chain library.
   ui.js       -  Manages the utility and processing of the input + output.
   index.html  -  The utility's HTML source code.
   style.css   -  The styling for the utility.
+
+See CONTRIBUTING for a guide to contributing to this project.
